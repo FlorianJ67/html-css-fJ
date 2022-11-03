@@ -1,0 +1,95 @@
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffd90F;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header {
+    background-color: rgb(0, 119, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header p {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 7px;
+}
+header img {
+    width: 100%;
+}
+header figure {
+    margin: 0px;
+    width: 100%;
+}
+main {
+    display: flex ;
+    justify-content: flex-end
+}
+#middle {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+}
+#left {
+    background-color: rgb(0, 119, 255);
+    width: 200%;
+}
+#left a {
+    color:white;
+    width: 200%;
+}
+article {
+    width: 70%;
+}
+aside {
+    width: 35%;
+}
+h1 {
+    color:#ffd90F;
+}
+#right {
+    background-color: rgb(0, 106, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 0px;
+}
+#right img {
+    width: 60%;
+}
+#right figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#S-creator {
+    font-size: 25px;
+    font-weight: bold
+     ;
+}
+footer {
+    background-color: rgb(47, 92, 198);
+    display: flex;
+    justify-content: space-around;
+}
+small {
+    color: white;
+}
