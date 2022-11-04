@@ -16,6 +16,9 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+p {
+    text-align: justify;
+}
 ul {
     list-style: none;
     display: flex;
@@ -24,6 +27,7 @@ ul {
     gap: 8px;
     padding-top: 8px;
     padding-bottom: 8px;
+    text-decoration: underline;
 }
 a:hover {
     text-decoration: none;
@@ -77,6 +81,7 @@ h1 {
     font-size: 34px;
     color:#ffd90F;
     margin-bottom: 16px;
+    margin-top: 25px;
 }
 #right {
     background-color: #4990c5;
